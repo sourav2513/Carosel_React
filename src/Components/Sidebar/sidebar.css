@@ -1,0 +1,23 @@
+@media only screen and (max-width: 350px){
+    .sidebar {
+        top: 0;
+        width: 2em;
+    }
+
+    .sidebar-icon {
+        width: 1.2em;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .sidebar {
+        top: 0;
+        width: 2em;
+    }
+
+    .sidebar-icon {
+        width: 1.2em;
+    }
+
+}

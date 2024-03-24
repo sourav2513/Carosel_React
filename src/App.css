@@ -1,0 +1,34 @@
+:root{
+ --body-color: #21252b;
+  --primary-color: #1F2937;
+  --secondary-color: #22C55E;
+  --background-dark-color: #1B1F24;
+  --background-dark-grey: #1D2127;
+  --border-color: #2e344e;
+  --background-light-color: #F1F1F1;
+  --background-light-color-2: rgba(3,127,255, .3);
+  --white-color: #FFF;
+  --font-light-color: #a4acc4;
+  --font-dark-color: #313131;
+  --font-dark-color-2: #151515;
+  --sidebar-dark-color: #191D2B;
+  --scrollbar-bg-color: #383838;
+  --scrollbar-thump-color: #6b6b6b;
+  --scrollbar-track-color: #383838;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) var(--background-light-color-2);
+}
+/* body selector */
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--body-color);
+}
+*::-webkit-scrollbar {
+  width: 12px;
+  scrollbar-color: var(--primary-color) var(--background-light-color-2);
+}
